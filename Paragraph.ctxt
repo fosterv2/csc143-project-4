@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Paragraph
+comment0.text=\r\n\ The\ class\ Paragraph\ keeps\ information\ about\ a\ paragraph,\ a\ String\ of\ text\ and\ a\ style\ from\ the\ embedded\ class\ Parastyle.\r\n\ It\ has\ the\ basic\ accessor\ and\ mutator\ methods.\r\n\r\n\ @author\ \ Valerie\ Foster\r\n\ @version\ 2/13/2018\r\n
+comment1.params=text\ style
+comment1.target=Paragraph(java.lang.String,\ Paragraph.ParaStyle)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Paragraph\r\n\ \r\n\ @param\ \ \ text\ \ \ \ a\ String\ of\ text\ for\ the\ paragraph\r\n\ @param\ \ \ style\ \ \ a\ ParaStyle\ for\ the\ style\ of\ the\ paragraph\r\n
+comment2.params=text
+comment2.target=void\ setText(java.lang.String)
+comment2.text=\r\n\ A\ mutator\ method\ -\ sets\ the\ text\ of\ the\ Paragraph\ to\ the\ given\ text\r\n\r\n\ @param\ \ \ text\ \ \ \ a\ String\ of\ text\ for\ the\ paragraph\r\n\ @trows\ \ \ IllegalArgumentException\ if\ the\ given\ text\ is\ null\r\n
+comment3.params=style
+comment3.target=void\ setStyle(Paragraph.ParaStyle)
+comment3.text=\r\n\ A\ mutator\ method\ -\ sets\ the\ style\ of\ the\ Paragraph\ to\ the\ given\ ParaStyle\r\n\r\n\ @param\ \ \ style\ \ \ a\ ParaStyle\ for\ the\ style\ of\ the\ paragraph\r\n
+comment4.params=
+comment4.target=java.lang.String\ getText()
+comment4.text=\r\n\ An\ accessor\ method\ -\ returns\ the\ text\ of\ this\ paragraph\r\n\r\n\ @return\ \ \ \ a\ String\ of\ text\r\n
+comment5.params=
+comment5.target=Paragraph.ParaStyle\ getStyle()
+comment5.text=\r\n\ An\ accessor\ method\ -\ returns\ the\ style\ of\ this\ paragraph\r\n\r\n\ @return\ \ \ \ a\ ParaStyle\ for\ the\ style\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\ \r\n\ Creates\ and\ returns\ a\ string\ representation\ of\ this\ Paragraph\r\n\ \r\n\ @return\ \ a\ String\ showing\ basic\ information\ about\ the\ paragraph\r\n
+numComments=7
